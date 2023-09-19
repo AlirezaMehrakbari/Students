@@ -1,0 +1,48 @@
+.Students{
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 50%;
+    margin: 1rem auto;
+
+
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.3rem 1rem;
+}
+.Student{
+    margin-top: 1rem;
+    background-color: #fff;
+    border-radius: 1rem;
+
+
+
+
+
+}
+.Id{
+    font-weight: bold;
+    color: #d500f9
+
+
+;
+}
+.FilterRow{
+ display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+}
+.ButtonFilter{
+    background-color: #69f0ae;
+    font-family: "B Nazanin";
+    font-weight: bold;
+    width: 10%;
+    height: 2rem;
+    border-radius: 1rem;
+    border: 1px solid #fff;
+    cursor: pointer;
+}

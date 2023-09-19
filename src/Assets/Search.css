@@ -1,0 +1,21 @@
+.Search{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 100%;
+}
+.SearchInput{
+    width: 48%;
+    border-radius: 1rem;
+    padding: 1rem ;
+    border: 2px solid #da2d68;
+}
+::placeholder{
+    font-weight: 900;
+    font-family: "B Nazanin";
+}
+.SearchInput:focus{
+  outline: none;
+    box-shadow: -1px 1px 2px 4px #da2d68;
+
+}
